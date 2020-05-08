@@ -1,7 +1,5 @@
 #1.eduservice中逻辑删除可以不使用 将@TableLogic 注释即可
-
 #逻辑删除和自动填充时间可以不用
-
 #2.common 中的R也可以不使用 R规定了在网页中显示返回数据的标准格式
 {"success": true,
   "code": 20000,
