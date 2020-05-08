@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wh.edu.mapper.UcenterMemberMapper">
+
+
+    <select id="getMemberCountByDay" resultType="Integer">
+        SELECT COUNT(1)
+        from ucenter_member
+        WHERE DATE(gmt_create)=#{day}
+    </select>
+</mapper>

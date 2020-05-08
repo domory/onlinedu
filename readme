@@ -1,0 +1,12 @@
+#1.eduservice中逻辑删除可以不使用 将@TableLogic 注释即可
+
+#2.common 中的R也可以不使用 R规定了在网页中显示返回数据的标准格式
+{"success": true,
+  "code": 20000,
+  "message": "操作成功",
+  "data": {}
+}
+
+#3.Swagger2 是在http://localhost:8081/swagger-ui.html上显示后端所有请求 直接进行数据库测试 只有swagger2没有R也能进行网页显示
+
+#4.eduservice test中的CodeGenerator是代码生成器，会自动生成除controller层之外的方法(ServiceImpl实现类中也会生成方法)
