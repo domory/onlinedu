@@ -24,9 +24,9 @@ public class upLoadFile {
                          @RequestParam(value = "host",required = false) String host){
         String endPoint ="oss-cn-beijing.aliyuncs.com";
 
-        String accessKeyId = "LTAI4Ff45wKLpz9d9ZjLhhPM";
+        String accessKeyId = "***";
 
-        String accessKeySecret = "T4IxASQMAsLlpZfb49OIK32hIpaKX0";
+        String accessKeySecret = "**";
         String bucketName ="domory";
 
 
