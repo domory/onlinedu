@@ -24,7 +24,7 @@ public class VideoServiceImpl implements VideoService{
 
 
     String accessKeyId = "**";
-    String accessKeySecret = "**";
+    String accessKeySecret = "*";
 
     @Override
     public String uploadvedio(MultipartFile file) {
